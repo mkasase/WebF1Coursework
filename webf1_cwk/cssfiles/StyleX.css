@@ -1,0 +1,53 @@
+img {
+	position: relative;
+  left: 50px;
+  top: 10px;
+	border-radius: 20px;
+	border-left: 20px;
+	background: #b0c4de;
+	padding: 2px;
+}
+
+video{
+    position: relative;
+    left: 50px;
+    top: 70px;
+		border-radius: 20px;
+		border-left: 20px;
+		background: #b0c4de;
+		padding: 2px;
+}
+
+#homeimg{
+	position: relative;
+  left: 100px;
+  top: 10px;
+	border-radius: 20px;
+	border-left: 20px;
+	background: #b0c4de;
+	padding: 2px;
+}
+
+
+@media only screen and (max width: 500px){
+	nav ul li{
+		box-sizing: border-box;
+		width: 100%;
+	}
+	header, footer{
+		box-sizing: border-box;
+		width: 100%;
+	}
+	main{
+		max-width: 100%;
+		height: auto;
+	}
+	video{
+		max-width: 100%;
+		height: auto;
+	}
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+}
